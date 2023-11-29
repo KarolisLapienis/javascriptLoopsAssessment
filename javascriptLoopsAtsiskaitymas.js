@@ -1,6 +1,6 @@
 
 //// JavaScript pro Karolis Lapienis
-//// js loops atsiskaitymas 
+//// JS loops atsiskaitymas 
 
 "use strict"
 
@@ -25,7 +25,7 @@
 /////////////// 3 /////////////////////////////////////////
 
 // for (let i = 2; i <= 12; i++) {
-//     let kubas = i ** 2
+//     let kubas = i ** 3
 //     console.log(kubas)
 // }
 
@@ -46,7 +46,7 @@
 
 ////////////// 5 ////////////////////////////////////////////
 
-// const dogBaris = {
+// let dogBaris = {
 //     name: "baris",
 //     heigth: 40,
 //     weigth: 35,
@@ -54,6 +54,7 @@
 //     "eye color": "brown",
 //     color: "tiger-striped",
 // }
+
 // let attributeCount = 0
 
 // for (let attribute in dogBaris) {
@@ -91,7 +92,7 @@
 //     if (num % 2 == 0) {
 //         console.log(num)
 //     }
-//     num++
+//     num ++
 // }
 
 /////////////////// 9 ////////////////////////////////////////
