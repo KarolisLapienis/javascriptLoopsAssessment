@@ -6,7 +6,7 @@
 
 ///////// uzsizaidziau nakti, sukuriau tokia programele :D ////////////
 
-// let userInput = prompt("iveskite betka, surasiu pirma neigiama skaiciu jusu ivestije naudodamas for cikla be masyvu ar stringu metodu")
+// let userInput = prompt("iveskite betka, surasiu pirma neigiama skaiciu jusu ivestije naudodamas for cikla be jokiu masyvu ar stringu metodu")
 
 // console.log(`${userInput}`)
 
@@ -23,11 +23,11 @@
 //             }
 //             firstNegative += userInput[b]
 //         }
+//     }
 
 //     if (firstNegative > 0) {
-//         firstNegative *= -1 
+//         firstNegative *= -1
 //         break
-//     }
 //     }
 // }
 
@@ -87,7 +87,7 @@
 //     weigth: 35,
 //     age: 20,
 //     "eye color": "brown",
-//     color: "tiger-striped",
+//     color: "brown-black striped",
 // }
 
 // let attributeCount = 0
@@ -109,7 +109,7 @@
 
 ///////////////// 7 ////////////////////////////////////////
 
-// const sentence = "Laba diena su vistiena"
+// let sentence = "Laba diena su vistiena"
 // let characterCount = 0
 
 // for (let character of sentence) {
@@ -133,35 +133,45 @@
 /////////////////// 9 ////////////////////////////////////////
 
 // while (true) {
-//     let num = parseInt(prompt("Iveskite skaiciu"))
-//     if (num % 2 !== 0) {
+//     let num = parseInt(prompt("Iveskite skaiciu, jei ivesite nelygini - ciklas nutruks"))
+
+//     if (isNaN(num)) {
+//         alert("Neteisingai ivestas skaicius, bandykite dar karta")
+//     }
+//     else if (num % 2 !== 0) {
 //         alert("Ivestas nelyginis skaicius, ciklas nutraukiamas")
 //         break
 //     }
 // }
 
-//////////////////////// 10 //////////////////////////////////
+// //////////////////////// 10 //////////////////////////////////
 
 // let sum = 0
-// let num = 0
 
 // do {
-//     num = parseInt(prompt("Iveskite skaiciu"))
-//     sum += num
+//     let num = parseInt(prompt("Iveskite betkoki skaiciu, arba 0 jei norite nutraukti"))
+
+//     if (isNaN(num)){
+//         alert("Neteisingai ivestas skaicius, bandykite dar karta")
+//     }
+//     else if (num > 0) {
+//         sum += num
+//     }
+
 // } while (num !== 0)
 
 // console.log(sum)
 
-////////////////////////////////////////////////////////////////////////
-/////////  nutraukimoSkaicius = 0. Kad nepridetu  //////////////////////
-////////  nutraukimoSkaiciaus galima butu daryti taip:  ////////////////
-////                                                     ///////////////
-//// do {                                                ///////////////
-////     num = parseInt(prompt("Iveskite skaiciu"))      ///////////////
-////     if (num !== nutraukimoSkaicius) {               ///////////////
-////         sum += num                                  ///////////////
-////     }                                               ///////////////
-//// } while (num !== nutraukimoSkaicius)                ///////////////
-////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+/////////  nutraukimoSkaicius = 0. Kad nepridetu  ////////////////
+////////  nutraukimoSkaiciaus galima butu daryti taip:  //////////
+////                                                     /////////
+//// do {                                                /////////
+////     num = parseInt(prompt("Iveskite skaiciu"))      /////////
+////     if (num !== nutraukimoSkaicius) {               /////////
+////         sum += num                                  /////////
+////     }                                               /////////
+//// } while (num !== nutraukimoSkaicius)                /////////
+//////////////////////////////////////////////////////////////////
 
 
