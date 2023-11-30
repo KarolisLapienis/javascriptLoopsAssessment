@@ -4,6 +4,41 @@
 
 "use strict"
 
+////////////// uzsizaidziau, sukuriau toki :D /////////////////
+
+// let userInput = prompt("iveskite betka, surasiu pirma neigiama skaiciu jusu ivestije naudodamas for loop be masyvu ar stringu metodu")
+
+// console.log(`${userInput}`)
+
+// let firstNegative = 0
+
+// for (let i = 0; i < userInput.length; i++) {
+
+//     if (userInput[i] == "-") {
+
+//         for (let b = i + 1; b < userInput.length; b++) {
+//             let num = parseInt(userInput[b])
+//             if (isNaN(num)) {
+//                 break
+//             }
+//             firstNegative += userInput[b]
+//         }
+
+//     if (firstNegative > 0) {
+//         firstNegative *= -1 
+//         break
+//     }
+//     }
+// }
+
+// if (firstNegative < 0) {
+// console.log(firstNegative)
+// }
+// else {
+//     console.log("Ivestije nebuvo neigiamu skaiciu")
+// }
+
+
 ///////////////////// 1 ////////////////////////////////////
 
 // for(;;) {
@@ -127,3 +162,12 @@
 ////     }                                                                                          ///////////////
 //// } while (num !== nutraukimoSkaicius)                                                           ///////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
