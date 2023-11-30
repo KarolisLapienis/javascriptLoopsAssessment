@@ -4,9 +4,9 @@
 
 "use strict"
 
-////////////// uzsizaidziau, sukuriau toki :D /////////////////
+///////// uzsizaidziau nakti, sukuriau tokia programele :D ////////////
 
-// let userInput = prompt("iveskite betka, surasiu pirma neigiama skaiciu jusu ivestije naudodamas for loop be masyvu ar stringu metodu")
+// let userInput = prompt("iveskite betka, surasiu pirma neigiama skaiciu jusu ivestije naudodamas for cikla be masyvu ar stringu metodu")
 
 // console.log(`${userInput}`)
 
@@ -32,7 +32,7 @@
 // }
 
 // if (firstNegative < 0) {
-// console.log(firstNegative)
+//     console.log(`Rastas pirmas neigiamas skaicius: ${firstNegative}`)
 // }
 // else {
 //     console.log("Ivestije nebuvo neigiamu skaiciu")
@@ -134,7 +134,7 @@
 
 // while (true) {
 //     let num = parseInt(prompt("Iveskite skaiciu"))
-//     if (num < 0) {
+//     if (num % 2 !== 0) {
 //         alert("Ivestas nelyginis skaicius, ciklas nutraukiamas")
 //         break
 //     }
@@ -152,22 +152,16 @@
 
 // console.log(sum)
 
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-///////// nutraukimoSkaicius = 0. Kad nepridetu nutraukimoSkaiciaus galima butu daryti taip:  /////////////////////
-////                                                                                                ///////////////
-//// do {                                                                                           ///////////////
-////     num = parseInt(prompt("Iveskite skaiciu"))                                                 ///////////////
-////     if (num !== nutraukimoSkaicius) {                                                          ///////////////
-////         sum += num                                                                             ///////////////
-////     }                                                                                          ///////////////
-//// } while (num !== nutraukimoSkaicius)                                                           ///////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
-
-
-
-
+////////////////////////////////////////////////////////////////////////
+/////////  nutraukimoSkaicius = 0. Kad nepridetu  //////////////////////
+////////  nutraukimoSkaiciaus galima butu daryti taip:  ////////////////
+////                                                     ///////////////
+//// do {                                                ///////////////
+////     num = parseInt(prompt("Iveskite skaiciu"))      ///////////////
+////     if (num !== nutraukimoSkaicius) {               ///////////////
+////         sum += num                                  ///////////////
+////     }                                               ///////////////
+//// } while (num !== nutraukimoSkaicius)                ///////////////
+////////////////////////////////////////////////////////////////////////
 
 
